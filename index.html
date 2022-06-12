@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="bigContainer">
+        <div class="btns">
+            <button class="btn" id="connect">Connect</button>
+            <button class="btn" id="reset">Reset</button>    
+        </div>
+        <svg width="300" height="300" style="background-color:antiquewhite">
+            
+            <rect class="smallbox" data-row="line1" data-index="1" id="box1" x="0" y="0"/>
+            <rect class="smallbox" data-row="line1" data-index="2" id="box2" x="200" y="0" />
+            <rect class="smallbox" data-row="line2" data-index="1" id="box3" x="0" y="200" />
+            <rect class="smallbox" data-row="line2" data-index="2" id="box4" x="200" y="200"/>
+
+            <!-- the previous lines' elements will be removed and then the new ones will be created when making a connection -->
+            <svg id="lineContainer"></svg>
+        </svg>
+    </div>
+    <script src="js/main.js"></script> 
+</body>
+</html>

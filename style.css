@@ -1,0 +1,28 @@
+.bigContainer{
+    width: 300px;
+    margin: 0 auto;
+ }
+ .btns{
+     display: flex;
+     justify-content: end;
+     width: 300px;
+ }
+ .btn{
+     border: 1px solid lightseagreen;
+     border-radius: 5px;
+     margin: 5px;
+ }
+ .smallbox{
+     fill:lightseagreen;
+     cursor: pointer;
+     width: 100px;
+     height: 100px;
+ }
+ .redBorder{
+     fill:red;
+ }
+ polyline{
+     fill:none; 
+     stroke-width:3; 
+     stroke:red;
+ }
